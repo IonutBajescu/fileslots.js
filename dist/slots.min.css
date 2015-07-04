@@ -1,0 +1,43 @@
+.files-slots-widget {
+    border: 1px solid rgba(43, 46, 50, 0.2);
+    padding: 10px 10px 5px 10px;
+}
+.files-slots .slot-container,
+.files-slots .slot.empty {
+    margin-bottom: 5px;
+}
+.files-slots .slot-container {
+    margin-right: 7px;
+}
+.files-slots .slot {
+    width: 95px;
+    height: 95px;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    text-align: center;
+    cursor: pointer;
+    float: left;
+    border-radius: 3px;
+}
+.files-slots .slot.full {
+    background-size: cover;
+    background: #ffffff no-repeat;
+}
+.files-slots .slot.full .name {
+    word-break: break-all;
+    word-wrap: break-word;
+    width: 95px;
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+}
+.files-slots .slot.empty i {
+    font-size: 50px;
+    line-height: 100px;
+}
+.files-slots .slot-options {
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 8px 4px;
+}
+.files-slots .slot-options .button {
+    margin-bottom: 4px;
+}
