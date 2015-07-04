@@ -47,7 +47,7 @@ class FilesSlots extends React.Component {
 
                 xhr.responseJSON.files.forEach(((uploaded_file, i) => {
                     slots.state.files.forEach(((file, j) => {
-                        if (!file.uploaded && file.name == uploaded_file.real_filename) {
+                        if (!file.uploaded && file.name == uploaded_file.filename) {
                             slots.state.files[j].uploaded = true;
                             slots.state.files[j].id = uploaded_file.id;
                             slots.state.files[j].url = uploaded_file.url;
