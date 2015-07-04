@@ -19,7 +19,7 @@
     border-radius: 3px;
 }
 .files-slots .slot.full {
-    background-size: 100% !important;
+    background-size: 100% 100% !important;
     background: #ffffff no-repeat;
 }
 .files-slots .slot.full .name {
